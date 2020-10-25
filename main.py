@@ -22,4 +22,5 @@ if num_jugador == número_elegido_ordenador:
     print('No me lo creo ' + nombre_jugador + '!! Has logrado adivinar mi número en ' + oportunidades + ' oportunidades!')
 if num_jugador != número_elegido_ordenador:
     número_elegido_ordenador = str(número_elegido_ordenador)
-    print('Vaya ... ¡¡has perdido!! mi número era el ' + number)
+    print('Vaya ... ¡¡has perdido!! mi número era el ' + número_elegido_ordenador)
+    
